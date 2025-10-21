@@ -19,7 +19,7 @@ javac hello.java # Creates hello.class
 - Part of the **JVM** (Java Virtual Machine).
 - Works at **runtime**, when you execute your program (`java Hello).
 - The JVM normally interprets bytecode (executes it line by line).
-- But the **JIT compiler** detects “hot” methods (frequently executed code) and compiles them into **native machine code** for your CPU, making them run much faster. 
+- But the **JIT compiler** detects “hot” methods (frequently executed code) and compiles them into **native machine code** for the CPU, making them run much faster. 
 - That is the exact reason why we were adding that static block at the top of our program, so that the function becomes hot and the JIT compiler make them run faster.
 - This is why Java can start slower but speeds up after running for a while.
 
