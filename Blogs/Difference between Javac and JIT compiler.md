@@ -9,9 +9,8 @@
 - Example
 ```
 javac hello.java # Creates hello.class
-	
 ```
-	
+
 ### Now we have platform independent bytecode.
 
 
